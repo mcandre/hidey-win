@@ -1,4 +1,6 @@
+AIP=Hidey-1.0.aip
+
 all: installer
 
-installer: Hidey-1.0.aip
-	AdvancedInstaller /build Hidey-1.0.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
